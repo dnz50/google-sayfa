@@ -1,0 +1,114 @@
+nav{
+
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+a{
+    margin: 5px;
+    padding: 3px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.uyg{
+    height: 30px;
+    width: 30px;
+    object-fit: fill;
+    border-radius: 50%;
+    padding: 2px;
+    
+}
+.uyg:hover{
+    background-color: rgb(233, 228, 228);
+
+}
+main{
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.logo{
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+.arama{
+    width: 561px;
+    height: 44px;
+    align-items: center;
+    justify-content: space-around;
+    border:2px solid;
+    border-radius: 22px;
+    margin: 10px;
+    display: flex;
+    border-color: aliceblue;
+    box-shadow: 2px slategray;
+}
+.by{
+    width: 35px;
+    height: 35px;
+    object-fit:fill;
+    padding: 5px;
+}
+.se{
+    width: 35px;
+    height: 35px;
+}
+.ar{
+
+    width: 300px;
+    height: 35px;
+}
+.mic{
+
+    width: 35px;
+    height: 35px;
+    object-fit: fill;
+}
+.alt{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    display: flex;
+
+}
+button{
+
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px;
+    background-color: rgb(252, 252, 252);
+
+}
+.b{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(189, 191, 194);
+}
